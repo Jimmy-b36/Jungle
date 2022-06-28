@@ -1,3 +1,9 @@
+<% if (enhanced_cart.length == 0)  %>
+  <div class="empty-cart mt-5">
+    <h1 class="alert alert-info">Oh no, it seems like your cart is empty!</h1>
+    </div>
+    <% else %>
+
 <section class="cart-show">
 
   <header class="page-header">
@@ -31,6 +37,7 @@
       </tfoot>
     </table>
   </div>
+  
 
   <div class="row">
     <div class="col-xs-12">
@@ -48,5 +55,5 @@
       <% end %>
     </div>
   </div>
-
 </section>
+<%  end %>
