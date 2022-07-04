@@ -44,6 +44,13 @@
         </li> %>
       </ul>
       <ul class="navbar-nav">
+      
+       <% if current_user %>
+      <li class="nav-item align-self-center">Signed in as <%= current_user.name %> | <li class="nav-item"><%= link_to "Logout", '/logout', class: "nav-link" %></li>
+      <% else %>
+      <li class="nav-item"><%= link_to 'Login', '/login', class: 'nav-link' %></li> <li class="nav-item"><%= link_to 'Signup', '/register', class: 'nav-link' %></li>
+      <% end %>
+      
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle text-danger"
@@ -62,9 +69,11 @@
         </li>
         <li class="nav-item end-0">
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
-          My Cart (<%= cart.size %>) <% end %>
+          My Cart (<%= cart.size %>) 
+          <% end %>
         </li>
       </ul>
+     
     </div>
   </div>
 </nav>
