@@ -7,6 +7,11 @@ describe('product page testing', () => {
   });
   it('Can navigate to the product page', () => {
     cy.get('.products article').first().click();
-    cy.get(':nth-child(2) > h1').should('have.text', 'Scented Blade');
+    cy.get('.products-show').should('exist');
+    // check if product name is on page
+    cy.contains('Scented Blade');
+    cy.contains('in stock at');
+    //check if button to add product exists
+    cy.get('.btn').contains('Add');
   });
 });
