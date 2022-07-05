@@ -5,10 +5,16 @@
 <div class="d-flex flex-row justify-content-center">
 <%= form_for :user, url: '/users' do |f| %>
 <div class="d-flex justify-content-center m-1">
-Name:
+First Name:
 </div>
 <div class="d-flex justify-content-center m-1">
-   <%= f.text_field :name %>
+   <%= f.text_field :first_name %>
+</div>
+<div class="d-flex justify-content-center m-1">
+Last Name:
+</div>
+<div class="d-flex justify-content-center m-1">
+   <%= f.text_field :last_name %>
 </div>
 
   <div class="d-flex justify-content-center m-1">
