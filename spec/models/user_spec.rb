@@ -137,7 +137,7 @@ RSpec.describe User, type: :model do
   end
 
   describe ".authenticate_with_credentials" do
-    it "should pass with valid credentials" do
+    it "should find the user with valid credentials" do
       user =
         User.new(
           first_name: "Jamie",
@@ -148,7 +148,7 @@ RSpec.describe User, type: :model do
         )
       user.save
       result = User.authenticate_with_credentials("test@test.com", "test")
-      expect(result).not_to be(nil)
+      expect(result).to match(user)
     end
 
     it "should not pass with invalid credentials" do
