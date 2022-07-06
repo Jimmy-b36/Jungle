@@ -1,6 +1,29 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1.
+
+I was handed an existing code-base and needed to implement new features.
+
+Sold Out Badge
+Admin Categories
+User Authentication
+Order Details Page
+The following bugs were fixed as well.
+
+Missing Admin Security
+User must enter HTTP auth login/password to access funcitonality now
+Checkout page with an empty cart
+When the cart is empty, the carts page will display a related message instead of an empty cart
+
+## Testing
+
+The newly implemented features and functions were tested using rspec model testing and cypress E2E feature testing.
+
+## Screenshots
+
+- [Homepage](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/homepage.png)
+- [product page](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/product%20page.png)
+- [products](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/products.png)
 
 ## Setup
 
