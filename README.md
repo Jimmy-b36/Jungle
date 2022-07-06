@@ -8,7 +8,8 @@ I was handed an existing code-base and needed to implement new features.
 - Admin Categories
 - User Authentication
 - Order Details Page
-  The following bugs were fixed as well.
+
+### The following bugs were fixed as well.
 
 - Missing Admin Security
 - User must enter HTTP auth login/password to access funcitonality now
