@@ -21,9 +21,9 @@ The newly implemented features and functions were tested using rspec model testi
 
 ## Screenshots
 
-- [Homepage](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/homepage.png)
-- [product page](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/product%20page.png)
-- [products](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/products.png)
+- ![Homepage](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/homepage.png)
+- ![product page](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/product%20page.png)
+- ![products](https://github.com/Jimmy-b36/Jungle/blob/master/_docs/products.png)
 
 ## Setup
 
