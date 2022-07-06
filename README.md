@@ -31,7 +31,7 @@ The newly implemented features and functions were tested using rspec model testi
 2. Create `config/database.yml` by copying `config/database.example.yml`
 3. Create `config/secrets.yml` by copying `config/secrets.example.yml`
 4. Run `bin/rails db:reset` to create, load and seed db
-5. Create .env file based on .env.example
+5. Create .env file by copying `.env.example`
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
